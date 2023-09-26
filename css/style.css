@@ -12,16 +12,18 @@
     font-size: 24px;
   }
 
-  .calendar, .notice {
-    margin: 0 auto;
+  .calendar {
+    margin: 0 50px;
     background-color: #f0f0f0;
-    padding: 10px;
     max-width: 500px;
     height: 350px;
   }
 
   .notice {
     height: 150px;
+    margin: 0 50px;
+    background-color: #f0f0f0;
+    max-width: 500px;
   }
 
   .buttonui btn {
@@ -46,8 +48,3 @@
     height: 100%;
   }
 
-  /* 컨텐츠를 화면에 맞게 조절 */
-  .home, .calender, .notice, .buttonui {
-    height: auto;
-  }
-}
