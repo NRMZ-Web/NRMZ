@@ -1,8 +1,10 @@
 @charset "utf-8";
 
+/* 화면 너비가 767px 이하인 경우에만 스타일 적용 */
 @media (max-width: 767px) {
   body {
     text-align: center;
+    overflow-x: hidden; /* 수평 스크롤 숨김 */
   }
 
   .home h2 {
@@ -14,7 +16,6 @@
     margin: 0 auto;
     background-color: #f0f0f0;
     padding: 10px;
-    width: 100%;
     max-width: 500px;
   }
 
@@ -37,5 +38,15 @@
 
   .buttonui .kakao {
     background-color: #ff5722;
+  }
+
+  /* 화면 높이 조절 */
+  body, html {
+    height: 100%;
+  }
+
+  /* 컨텐츠를 화면에 맞게 조절 */
+  .home, .calender, .notice, .buttonui {
+    height: auto;
   }
 }
