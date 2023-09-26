@@ -12,15 +12,15 @@
     font-size: 24px;
   }
 
-  .calendar {
-    margin: 0 50px;
+  .calender {
+    margin: 0 50px 50px;
     background-color: #f0f0f0;
     max-width: 500px;
     height: 350px;
   }
 
   .notice {
-    height: 150px;
+    height: 70px;
     margin: 0 50px;
     background-color: #f0f0f0;
     max-width: 500px;
