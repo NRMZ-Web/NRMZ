@@ -12,14 +12,19 @@
     overflow-x: hidden; /* 수평 스크롤 숨김 */
   }
 
-  .home {
-    height: 100px;
-    width: 100px;
-  }
-  .home h2 {
-    font-family: 'Logo';
-    font-size: 24px;
-  }
+.home {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home h2 {
+  font-family: 'Logo';
+  font-size: 24px;
+  margin: 0;
+}
 
   .calender {
     margin: 0 50px 25px;
