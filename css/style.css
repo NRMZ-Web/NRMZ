@@ -7,16 +7,20 @@
     overflow-x: hidden; /* 수평 스크롤 숨김 */
   }
 
+  .home {
+    height: 100px;
+    width: 100px;
+  }
   .home h2 {
     font-family: Arial, sans-serif;
     font-size: 24px;
   }
 
   .calender {
-    margin: 0 50px 50px;
+    margin: 0 50px 25px;
     background-color: #f0f0f0;
     max-width: 500px;
-    height: 350px;
+    height: 200px;
   }
 
   .notice {
