@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+@font-face {
+  font-family: 'Logo';
+  src: url('./EF_cucumbersalad(윈도우용_TTF).ttf') format('ttf'),
+}
+
 /* 화면 너비가 767px 이하인 경우에만 스타일 적용 */
 @media (max-width: 767px) {
   body {
@@ -12,7 +17,7 @@
     width: 100px;
   }
   .home h2 {
-    font-family: Arial, sans-serif;
+    font-family: 'Logo';
     font-size: 24px;
   }
 
