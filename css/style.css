@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'Logo';
-  src: url('./EF_cucumbersalad(윈도우용_TTF).ttf') format('ttf'),
+  src: url('./EF_cucumbersalad(윈도우용_TTF).ttf') format('truetype'),
 }
 
 /* 화면 너비가 767px 이하인 경우에만 스타일 적용 */
