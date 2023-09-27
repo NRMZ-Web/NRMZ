@@ -70,8 +70,8 @@
 
 /* 헤더 스타일 */
 header {
-  background-color: #333;
-  color: #fff;
+  background-color: #fff;
+  color: #333;
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
