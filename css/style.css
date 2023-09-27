@@ -41,8 +41,6 @@
 
   .buttonui btn {
     display: inline-block;
-    background-color: #007bff;
-    color: #fff;
     padding: 20px 20px;
     margin: 10px;
     border: none;
@@ -52,9 +50,17 @@
     text-decoration: none;
   }
 
-  .buttonui .kakao {
-    background-color: #ff5722;
+  .somoim {
+    background-image: url('somoim.png');
+    background-size: cover;
   }
+
+  .kakao {
+     background-image: url('kakao.png');
+    background-size: cover;
+  }
+    
+  
 
   /* 화면 높이 조절 */
   body, html {
