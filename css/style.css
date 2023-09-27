@@ -67,3 +67,41 @@
     height: 100%;
   }
 
+
+/* 헤더 스타일 */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* 햄버거 메뉴 아이콘 스타일 */
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* 네비게이션 메뉴 스타일 (초기에는 숨김) */
+.nav-menu {
+  display: none;
+}
+
+/* 네비게이션 메뉴 스타일 */
+.nav-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-menu ul li {
+  margin: 10px 0;
+}
+
+.nav-menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
