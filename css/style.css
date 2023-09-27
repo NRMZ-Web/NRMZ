@@ -85,15 +85,15 @@ header {
   cursor: pointer;
 }
 
-/* 네비게이션 메뉴 스타일 (초기에는 숨김) */
-.nav-menu {
-  display: none;
-}
-
 /* 네비게이션 메뉴 스타일 */
 .nav-menu ul {
   list-style: none;
   padding: 0;
+  display: none; /* 초기에는 숨김 상태 */
+}
+
+.nav-menu.show ul {
+  display: block; /* show 클래스가 활성화되면 메뉴 표시 */
 }
 
 .nav-menu ul li {
@@ -105,3 +105,4 @@ header {
   color: #fff;
   font-size: 18px;
 }
+
