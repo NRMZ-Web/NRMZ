@@ -113,3 +113,12 @@ header {
   color: #fff;
   font-size: 18px;
 }
+
+@keyframes slideIn {
+  from {
+    right: -100%; 
+  }
+  to {
+    right: 0;
+  }
+}
