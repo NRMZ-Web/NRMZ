@@ -11,3 +11,9 @@ menuIcon.addEventListener('click', () => {
 closeButton.addEventListener('click', () => {
   navMenu.classList.remove('show');
 });
+
+document.addEventListener('click', (event) => {
+  if (!navMenu.contains(event.target) && !menuIcon.contains(event.target)) {
+    navMenu.classList.remove('show');
+  }
+});
