@@ -104,6 +104,12 @@ header {
   transition: right 0.3s ease;
 }
 
+.nav-menu.show ul {
+  display: block;
+  right: 0;
+  animation: slideIn 0.3s ease;
+}
+
 .nav-menu ul li {
   margin: 10px 0;
 }
