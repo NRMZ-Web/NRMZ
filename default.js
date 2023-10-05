@@ -1,24 +1,13 @@
-// 네비
+// 네비게이션 메뉴 
 const menuIcon = document.getElementById('menu-icon');
+const closeButton = document.getElementById('close-button');
 const navMenu = document.querySelector('.nav-menu');
 
 menuIcon.addEventListener('click', () => {
   navMenu.classList.toggle('show');
 });
 
-// 네비 닫기
-
-const closeButton = document.getElementById('close-button');
-
-
-const navMenu = document.querySelector('.nav-menu');
-
-
+// 닫기 버튼 
 closeButton.addEventListener('click', () => {
   navMenu.classList.remove('show');
-});
-
-const menuIcon = document.getElementById('menu-icon');
-menuIcon.addEventListener('click', () => {
-  navMenu.classList.toggle('show');
 });
