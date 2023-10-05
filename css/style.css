@@ -13,6 +13,7 @@
 
   .nav-menu.show ul {
     display: block;
+    right: 0; 
   }
 }
 
@@ -100,6 +101,7 @@ header {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   z-index: 999;
+  transition: right 0.3s ease;
 }
 
 .nav-menu ul li {
@@ -110,13 +112,4 @@ header {
   text-decoration: none;
   color: #fff;
   font-size: 18px;
-}
-
-.close-button {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  font-size: 24px;
-  color: #fff;
-  cursor: pointer;
 }
