@@ -8,8 +8,13 @@
 @media (max-width: 767px) {
   body {
     text-align: center;
-    overflow-x: hidden; 
+    overflow-x: hidden;
   }
+
+  .nav-menu.show ul {
+    display: block;
+  }
+}
 
 .home {
   height: 200px;
@@ -84,15 +89,10 @@ header {
   cursor: pointer;
 }
 
-/* 네비게이션 메뉴 */
 .nav-menu ul {
   list-style: none;
   padding: 0;
-  display: none; 
-}
-
-.nav-menu.show ul {
-  display: block; 
+  display: none;
 }
 
 .nav-menu ul li {
@@ -104,4 +104,3 @@ header {
   color: #fff;
   font-size: 18px;
 }
-
