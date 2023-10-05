@@ -5,11 +5,10 @@
   src: url('logo.woff') format('woff'),
 }
 
-/* 화면 너비가 767px 이하인 경우에만 스타일 적용 */
 @media (max-width: 767px) {
   body {
     text-align: center;
-    overflow-x: hidden; /* 수평 스크롤 숨김 */
+    overflow-x: hidden; 
   }
 
 .home {
@@ -68,7 +67,7 @@
   }
 
 
-/* 헤더 스타일 */
+/* 헤더 */
 header {
   background-color: #fff;
   color: #333;
@@ -79,21 +78,21 @@ header {
 }
 
 
-/* 햄버거 메뉴 아이콘 스타일 */
+/* 햄버거 메뉴 */
 .menu-icon {
   font-size: 24px;
   cursor: pointer;
 }
 
-/* 네비게이션 메뉴 스타일 */
+/* 네비게이션 메뉴 */
 .nav-menu ul {
   list-style: none;
   padding: 0;
-  display: none; /* 초기에는 숨김 상태 */
+  display: none; 
 }
 
 .nav-menu.show ul {
-  display: block; /* show 클래스가 활성화되면 메뉴 표시 */
+  display: block; 
 }
 
 .nav-menu ul li {
