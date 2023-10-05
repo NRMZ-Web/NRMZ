@@ -88,7 +88,14 @@ header {
 .menu-icon {
   font-size: 24px;
   cursor: pointer;
+  display: block;
 }
+
+
+.nav-menu.show .menu-icon {
+  display: none;
+}
+
 
 .nav-menu ul {
   list-style: none;
@@ -108,6 +115,8 @@ header {
   display: block;
   right: 0;
   animation: slideIn 0.3s ease;
+  background-color: #fff;
+
 }
 
 .nav-menu ul li {
