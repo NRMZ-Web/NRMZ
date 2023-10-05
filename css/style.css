@@ -116,6 +116,9 @@ header {
   right: 0;
   animation: slideIn 0.3s ease;
   background-color: #fff;
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 200px;
 
 }
 
