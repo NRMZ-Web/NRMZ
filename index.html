@@ -6,61 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="description" content="우리 나름의 음악" />
     <link rel="icon" type="image/png" sizes="16x16" href="favi.png"/>
+    <!--css참조-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
 
   <body>
-    <div id="app">
-      <header>
-        <div class="menu"></div>
-        <div class="menu-icon" id="menu-icon" @click="toggleMenu">&#9776;</div>
-        
-        <nav v-show="isMenuOpen" class="nav-menu">
-          <img src="" alt="">
-          <ul>
-            <li><a href="#">로그인이 필요합니다.</a></li>
-            <hr style="margin-left:-10px; margin-right:10px;">
-            <li><a href="#">· 내 프로필</a></li>
-            <hr style="margin-left:-10px; margin-right:10px;">
-            <li><a href="#">· 공지</a></li>
-            <li><a href="#">· 일정</a></li>
-            <li><a href="#">· 커뮤니티</a></li>
-            <li><a href="#">· 회원소개</a></li>
-            <li><a href="#">· 자료</a></li>
-            <img src="logo1.png" alt="" width="200px" style="padding:50px 0; margin-top:80%;">
-          </ul>
-        </nav>
-      </header>
-
-      <div class="home">
+    <header>
+      <div class="menu"></div>
+      <div class="menu-icon" id="menu-icon">&#9776;</div>
+      <nav class="nav-menu">
+        <img src="" alt="">
+        <ul>
+          <li><a href="#">로그인이 필요합니다.</a></li>
+          <hr style="margin-left:-10px; margin-right:10px;">
+          <li><a href="#">· 내 프로필</a></li>
+          <hr style="margin-left:-10px; margin-right:10px;">
+          <li><a href="#">· 공지</a></li>
+          <li><a href="#">· 일정</a></li>
+          <li><a href="#">· 커뮤니티</a></li>
+          <li><a href="#">· 회원소개</a></li>
+          <li><a href="#">· 자료</a></li>
+          <img src="logo1.png" alt="" width="200px" style="padding:50px 0; margin-top:80%;">
+        </ul>
+      </nav>
+    </header>
+    <div class="home">
         <img src="Group 9.png" alt="" width="200px">
-      </div>
-
-      <div class="buttonui">
-        <button class="somoim" @click="openSomoim">소모임</button>
-        <button class="kakao" @click="openKakao">카카오</button>
-      </div>
     </div>
-    
+    <div class="calender">
+    </div>
+    <div class="notice">
+    </div>
+    <div class="buttonui">
+      <btn class="somoim"></btn>
+      <btn class="kakao"></btn>
+    </div>
+    <script src="default.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-    <script>
-      new Vue({
-        el: '#app',
-        data: {
-          isMenuOpen: false,
-        },
-        methods: {
-          toggleMenu() {
-            this.isMenuOpen = !this.isMenuOpen;
-          },
-          openSomoim() {
-            alert('소모임 앱으로 이동합니다.');
-          },
-          openKakao() {
-            alert('카카오 오픈채팅으로 이동합니다.');
-          }
-        }
-      });
-    </script>
   </body>
 </html>
