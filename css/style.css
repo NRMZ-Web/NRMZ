@@ -44,6 +44,12 @@
     max-width: 500px;
   }
 
+.buttonui {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
   .buttonui btn {
     display: inline-block;
     padding: 50px 50px;
